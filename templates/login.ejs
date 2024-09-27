@@ -10,7 +10,7 @@
     <div class="container">
         <h2>Log In</h2>
         <form action="login" method="post">
-            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="text" name="name" placeholder="Enter Your Name" value="<%= name ? name : '' %>">
             <input type="password" name="password" placeholder="Enter Your Password">
             <input type="submit">
             <% if (messages.error) { %>

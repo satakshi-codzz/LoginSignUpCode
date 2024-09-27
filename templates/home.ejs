@@ -7,17 +7,7 @@
     <link rel="stylesheet" href="/css/home.css"> 
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">EcomShop</div>
-            <ul class="nav-links">
-                <li><a href="/shop">Shop</a></li>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/cart">Cart</a></li>
-            </ul>
-        </nav>
-    </header>
+    <%- include('common/header') %>
 
     <section class="welcome-section">
         <h2>Welcome <%= name %> to</h2>
@@ -25,8 +15,7 @@
         <a href="/shop" class="btn">Start Shopping</a>
     </section>
 
-    <footer>
-        <p>&copy; 2024 EcomShop. All Rights Reserved.</p>
-    </footer>
+    <%- include('common/footer') %>
+
 </body>
 </html>
