@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #d4dafe; /* Light periwinkle blue background */
+    color: #007BFF; /* Vibrant blue text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF; /* Navbar with strong blue */
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar .nav-links a:hover {
+    color: #d4dafe;
+}
+
+/* Welcome Section Styling */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    flex: 1;
+}
+
+.welcome-section h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.welcome-section .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.welcome-section .btn:hover {
+    background-color: #d4dafe; /* Light blue on hover */
+    color: #007BFF;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007BFF;
+    color: #d4dafe;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 14px;
+}

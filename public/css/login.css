@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('/images/background.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 60px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 300px;
+    text-align: center; 
+}
+
+h2 {
+    margin-bottom: 15px; 
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+input[type="submit"] {
+    background-color: #007BFF; 
+    color: white;
+    cursor: pointer; 
+}
+
+a {
+    display: block; 
+    margin-top: 15px; 
+    color: #007BFF;
+    text-decoration: none; 
+}
+
+.alert-err {
+    font-size: 14px;
+    color: red;
+    text-align: start;
+}
+
+.alert-success {
+    font-size: 14px;
+    color: green;
+    text-align: start;
+}
